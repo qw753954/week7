@@ -13024,6 +13024,15 @@ body {
   font-size: 1rem;
 }
 
+@media (max-width: 768px) {
+  .info h3 {
+    font-size: 26px;
+  }
+  .info p {
+    font-size: 18px;
+  }
+}
+
 .onlineBtn {
   font-size: 1.25rem;
   border: 2px #000 solid;
@@ -13043,8 +13052,8 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
   left: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
