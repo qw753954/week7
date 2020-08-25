@@ -1,0 +1,40 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+//文字反白
+::selection {
+    background: #AC8A46;
+    color: #fff;
+}
+
+.navbar {
+    button {
+        &:focus {
+            outline: none;
+        }
+        i {
+            font-size: 2.25rem;
+        }
+    }
+}
+
+.logoDark {
+    width: 128px;
+    height: 38px;
+    background: url("../../source/img/d’Perfume.png") no-repeat center center/contain;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hamCart {
+    position: relative;
+    span {
+        font-size: 12px;
+        position: absolute;
+        top: -5px;
+        right: 3px;
+        padding: 0 6px;
+    }
+}

@@ -1,0 +1,16 @@
+.subscribe {
+    height: 600px;
+    background: url("../../source/img/subscribe.png") no-repeat center center/cover;
+    .row {
+        height: 480px;
+    }
+    input {
+        border: 2px #916000 solid;
+    }
+}
+
+@include md {
+    .subscribe {
+        background-image: url("../../source/img/subscribe-md.png");
+    }
+}

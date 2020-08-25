@@ -1,0 +1,59 @@
+.user {
+    h3 {
+        font-size: 1.25rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+}
+
+.userForm {
+    h4 {
+        border-bottom: 1px solid #8D8D8D;
+    }
+    input {
+        color: #8D8D8D;
+    }
+    input:checked {
+        background-color: #000;
+    }
+}
+
+.userCode {
+    i,
+    span {
+        font-size: 1.25rem;
+    }
+    small {
+        color: #A5A5A5;
+    }
+}
+
+.userItem,
+.userItemActive {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 5px;
+        height: 2px;
+        background-color: #916000;
+    }
+}
+
+.userItem {
+    &::after {
+        right: 50%;
+        left: 50%;
+    }
+    &:hover::after {
+        right: 0;
+        left: 0;
+        transition: .5s;
+    }
+}
+
+.userItemActive::after {
+    right: 0%;
+    left: 0%;
+}

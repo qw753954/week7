@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入 | d'Perfume</title>
+
+    <link rel="shortcut icon" href="source/img/shortcut.png">
+    <link rel="stylesheet" href="source/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+
+<body>
+
+    <!-- Header start -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid container-md">
+
+            <!-- logo -->
+            <h1 class="mb-0 mr-auto"><a href="index.html" class="logoDark d-block">LOGO</a></h1>
+
+            <!-- hamburger-cart -->
+            <a href="#" class="hamCart nav-link text-dark text-center align-self-end d-md-none">
+                <i class="fas fa-shopping-cart d-block"></i>
+                <span class="bg-primary text-white rounded-circle">3</span>
+            </a>
+
+            <!-- hamburger-icon -->
+            <button class="navbar-toggler border-0 p-0 ml-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars navbar-toggler border-0"></i>
+            </button>
+
+            <!-- navBar -->
+            <div class="collapse navbar-collapse justify-content-end d-none d-md-block">
+                <ul class="navbar-nav">
+                    <li class="nav-item mr-3">
+                        <a href="product-list.html" class="nav-link text-dark text-center">
+                            <i class="fas fa-tshirt"></i> Product
+                        </a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a href="log-in.html" class="nav-link text-dark text-center">
+                            <i class="fas fa-user"></i> Log in
+                        </a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a href="#" class="nav-link text-dark text-center">
+                            <i class="fas fa-heart"></i> Wishlist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark text-center">
+                            <i class="fas fa-shopping-cart"></i> Cart(3)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- hamburger-navBar -->
+    <div class="collapse navbar-collapse d-md-none" id="navbarSupportedContent">
+        <ul class="navbar-nav bg-darkER text-center">
+            <li class="nav-item">
+                <a href="product-list.html" class="nav-link text-white border-bottom border-white py-3">
+                    Product
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white border-bottom border-white py-3">
+                    Wishlist
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white border-bottom border-white py-3">
+                    Blog
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white border-bottom border-white py-3">
+                    Contact
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="log-in.html" class="nav-link text-white py-3">
+                    Log in
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Header end -->
+
+
+    <!-- Menu start -->
+    <div class="bg-primary d-none d-md-block">
+        <ul class="container d-flex">
+            <li class="mr-4"><a href="#" class="text-white d-block py-2">CHANEL</a></li>
+            <li class="mr-4"><a href="#" class="text-white d-block py-2">Jo Malone</a></li>
+            <li class="mr-4"><a href="#" class="text-white d-block py-2">Curology</a></li>
+            <li class="mr-4"><a href="#" class="text-white d-block py-2">Dior</a></li>
+            <li class="mr-4"><a href="#" class="text-white d-block py-2">Chloe</a></li>
+            <li><a href="#" class="text-white d-block py-2">ZARA</a></li>
+        </ul>
+    </div>
+    <!-- Menu end -->
+
+
+    <!-- ─────────────────── 客製化區塊 start ─────────────────── -->
+
+
+    <!-- Content start -->
+    <div class="logIn container-fluid container-md my-4 my-md-9">
+        <div class="row align-items-center">
+
+            <div class="col-md-6 col-lg-8" data-aos="fade-right" data-aos-duration="1000">
+                <img src="source/img/login.png" class="img-fluid d-none d-md-block">
+                <img src="source/img/login-md.png" class="img-fluid d-md-none">
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-left" data-aos-duration="1000">
+                <h2 class="font-weight-bold mt-4 mt-md-0 mb-3">Log in</h2>
+
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">帳號</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group mb-5">
+                        <label for="exampleInputPassword1">密碼</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group d-flex align-items-center justify-content-between">
+                        <a href="#" class="font-weight-bold">忘記密碼</a>
+                        <div class="signLog">
+                            <a href="#" class="btn btn-outline-primary btn-lg mr-1" role="button">註冊</a>
+                            <a href="user.html" class="btn btn-primary btn-lg" role="button">登入</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!-- Content end -->
+
+
+    <!-- ─────────────────── 客製化區塊 end ─────────────────── -->
+
+
+    <!-- Footer start-->
+    <footer class="bg-primary py-2">
+        <div class="container-fluid container-md">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto"><img src="source/img/d’Perfumew.png" class="img-fluid logoLight">
+                </div>
+                <div class="col-auto"><small class="text-white">© 2020. All Rights Reserved.</small>
+                </div>
+                <ul class="col-auto d-none d-md-flex ml-auto mb-0">
+                    <li class="mr-2">
+                        <a href="product-list.html" class="nav-link text-white">Product</a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="#" class="nav-link text-white">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+
+
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- BS4 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- MY -->
+    <script src="source/js/jquery.min.js"></script>
+    <script src="source/js/all.js"></script>
+
+</body>
+
+</html>
