@@ -13127,14 +13127,6 @@ body {
   border-bottom: 1px solid #8D8D8D;
 }
 
-.userForm input {
-  color: #8D8D8D;
-}
-
-.userForm input:checked {
-  background-color: #000;
-}
-
 .userCode i,
 .userCode span {
   font-size: 1.25rem;
