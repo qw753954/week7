@@ -12936,12 +12936,16 @@ body {
   color: #fff;
 }
 
-.navbar button:focus {
+.header button:focus {
   outline: none;
 }
 
-.navbar button i {
+.header button i {
   font-size: 2.25rem;
+}
+
+.header ul {
+  font-size: 18px;
 }
 
 .logoDark {
