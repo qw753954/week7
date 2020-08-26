@@ -12976,7 +12976,6 @@ body {
 
 .banner h2 {
   font-size: 2.5rem;
-  font-weight: bold;
 }
 
 .banner p {
@@ -13010,6 +13009,9 @@ body {
   .banner p {
     font-size: 1.25rem;
   }
+  .banner a {
+    font-size: 1.5rem;
+  }
 }
 
 .info h3 {
@@ -13026,7 +13028,7 @@ body {
 
 @media (max-width: 768px) {
   .info h3 {
-    font-size: 26px;
+    font-size: 1.75rem;
   }
   .info p {
     font-size: 18px;
@@ -13055,6 +13057,12 @@ body {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .subscribe h2 {
+    font-size: 1.75rem;
+  }
 }
 
 .productList h3 {
