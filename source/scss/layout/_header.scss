@@ -1,9 +1,3 @@
-::selection {
-    //文字反白
-    background: #AC8A46;
-    color: #fff;
-}
-
 .header {
     button {
         &:focus {
@@ -12,9 +6,6 @@
         i {
             font-size: 2.25rem;
         }
-    }
-    ul {
-        font-size: 18px;
     }
 }
 

@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+}
+
+a{
+    display: block;
+}
+
+//文字反白 
+::selection {
+    background: $primaryLight;
+    color: white;
+}
+

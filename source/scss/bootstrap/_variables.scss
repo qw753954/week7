@@ -74,6 +74,7 @@ $danger:         $red !default;
 $light:          #E0E0E0; //$gray-100 !default;
 $dark:           #8D8D8D; //$gray-800 !default;
 $darkER:         #707070;
+$small:          #A5A5A5;
 $white:          #ffffff;
 
 $theme-colors: () !default;
@@ -89,6 +90,7 @@ $theme-colors: map-merge(
     "light":        $light,
     "dark":         $dark,
     "darkER":       $darkER,
+    "small":        $small,
     "white":        $white
   ),
   $theme-colors
@@ -297,23 +299,23 @@ $font-size-sm:                $font-size-base * .875 !default;
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
-$font-weight-bold:            700 !default;
-$font-weight-bolder:          bolder !default;
+$font-weight-bold:            500 !default;
+$font-weight-bolder:          700 !default;
 
 $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
 
-$h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
+$h1-font-size:                $font-size-base * 2.5 !default; //40
+$h2-font-size:                $font-size-base * 2 !default; //32
+$h3-font-size:                $font-size-base * 1.75 !default; //28
+$h4-font-size:                $font-size-base * 1.5 !default; //24
+$h5-font-size:                $font-size-base * 1.25 !default; //20
 $h6-font-size:                $font-size-base !default;
 
 $headings-margin-bottom:      $spacer / 2 !default;
 $headings-font-family:        null !default;
-$headings-font-weight:        500 !default;
-$headings-line-height:        1.2 !default;
+$headings-font-weight:        400 !default; //500
+$headings-line-height:        1.5 !default; //1.2
 $headings-color:              null !default;
 
 $display1-size:               6rem !default;

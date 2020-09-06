@@ -1,18 +1,11 @@
 .banner {
-    height: 870px;
+    height: 770px;
     background: url("../../source/img/banner.png") no-repeat center center/cover;
     .row {
-        height: 870px;
-    }
-    h2 {
-        font-size: 2.5rem;
-    }
-    p {
-        font-size: 1.5rem;
+        height: 770px;
     }
     a {
         color: #fff;
-        font-size: 1.75rem;
         padding: 10px 100px;
         border: 2px #fff solid;
         &:hover {
@@ -41,17 +34,6 @@
     }
 }
 
-.info {
-    h3 {
-        font-size: 2rem;
-    }
-    p {
-        font-size: 1.25rem;
-    }
-    .detail {
-        font-size: 1rem;
-    }
-}
 
 @include md {
     .info {
@@ -65,7 +47,6 @@
 }
 
 .onlineBtn {
-    font-size: 1.25rem;
     border: 2px #000 solid;
     &:hover {
         background-color: rgba(0, 0, 0, .06);
@@ -80,9 +61,9 @@
 .mask {
     position: absolute;
     top: 0;
-    bottom: 0;
-    left: 0;
     right: 0;
+    left: 0;
+    bottom: 0;
     background-color: rgba(0, 0, 0, .3);
 }
 
