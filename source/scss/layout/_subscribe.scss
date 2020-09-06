@@ -9,8 +9,8 @@
     }
 }
 
-@include md {
-    .subscribe {
+@include media-breakpoint-down(sm){
+    .subscribe{
         background-image: url("../../source/img/subscribe-md.png");
     }
 }

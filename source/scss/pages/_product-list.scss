@@ -9,7 +9,7 @@
     button:focus {
         box-shadow: none!important;
     }
-    @include lg {
+    @include media-breakpoint-down(md){
         h3{
             font-size: 20px;
         }

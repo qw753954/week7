@@ -12306,11 +12306,11 @@ a {
 }
 
 .banner {
-  height: 770px;
+  height: 800px;
   background: url("../../source/img/banner.png") no-repeat center center/cover;
 }
 .banner .row {
-  height: 770px;
+  height: 800px;
 }
 .banner a {
   color: #fff;
@@ -12322,7 +12322,7 @@ a {
   transition: 0.3s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .banner {
     height: 480px;
     background: url("../../source/img/banner-md.png") no-repeat center top/cover;
@@ -12340,7 +12340,7 @@ a {
     font-size: 1.5rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .info h3 {
     font-size: 1.75rem;
   }
@@ -12369,7 +12369,7 @@ a {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .subscribe h2 {
     font-size: 1.75rem;
   }
@@ -12384,7 +12384,7 @@ a {
 .productList button:focus {
   box-shadow: none !important;
 }
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
   .productList h3 {
     font-size: 20px;
   }
@@ -12439,7 +12439,7 @@ a {
   border: 2px #916000 solid;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .subscribe {
     background-image: url("../../source/img/subscribe-md.png");
   }

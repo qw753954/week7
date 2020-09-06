@@ -1,8 +1,8 @@
 .banner {
-    height: 770px;
+    height: 800px;
     background: url("../../source/img/banner.png") no-repeat center center/cover;
     .row {
-        height: 770px;
+        height: 800px;
     }
     a {
         color: #fff;
@@ -15,7 +15,7 @@
     }
 }
 
-@include md {
+@include media-breakpoint-down(sm){
     .banner {
         height: 480px;
         background: url("../../source/img/banner-md.png") no-repeat center top/cover;
@@ -35,7 +35,7 @@
 }
 
 
-@include md {
+@include media-breakpoint-down(sm){
     .info {
         h3 {
             font-size: 1.75rem;
@@ -67,7 +67,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-@include md {
+@include media-breakpoint-down(sm){
     .subscribe h2 {
         font-size: 1.75rem;
     }
